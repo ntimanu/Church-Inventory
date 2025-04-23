@@ -5,6 +5,8 @@ from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
+print(f"DB_USER: {os.getenv('DB_USER')}")
+print(f"DB_PASSWORD: {os.getenv('DB_PASSWORD')}")
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 

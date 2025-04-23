@@ -1,0 +1,86 @@
+[
+  {
+    "model": "ministry_areas.ministryarea",
+    "pk": 1,
+    "fields": {
+      "name": "Worship",
+      "slug": "worship",
+      "description": "Responsible for Sunday services, music, and worship elements",
+      "location": "Main Sanctuary",
+      "active": true,
+      "notes": "Includes worship team, tech team, and service planning",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ministry_areas.ministryarea",
+    "pk": 2,
+    "fields": {
+      "name": "Children's Ministry",
+      "slug": "childrens-ministry",
+      "description": "Responsible for all children's programming from nursery through elementary",
+      "location": "Children's Wing",
+      "active": true,
+      "notes": "Includes Sunday School, VBS, and special events",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ministry_areas.ministryarea",
+    "pk": 3,
+    "fields": {
+      "name": "Youth Ministry",
+      "slug": "youth-ministry",
+      "description": "Responsible for middle and high school student programming",
+      "location": "Youth Room",
+      "active": true,
+      "notes": "Includes weekly youth group, retreats, and special events",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ministry_areas.ministryarea",
+    "pk": 4,
+    "fields": {
+      "name": "Outreach",
+      "slug": "outreach",
+      "description": "Responsible for community outreach and missions",
+      "location": "Office Wing",
+      "active": true,
+      "notes": "Includes local missions, global missions, and evangelism",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ministry_areas.ministryarea",
+    "pk": 5,
+    "fields": {
+      "name": "Facilities",
+      "slug": "facilities",
+      "description": "Responsible for church building and grounds maintenance",
+      "location": "Maintenance Office",
+      "active": true,
+      "notes": "Includes cleaning, repairs, and facility improvements",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ministry_areas.ministryarea",
+    "pk": 6,
+    "fields": {
+      "name": "Administration",
+      "slug": "administration",
+      "description": "Responsible for church operations and administration",
+      "location": "Main Office",
+      "active": true,
+      "notes": "Includes office staff, facilities, and operations",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  }
+]

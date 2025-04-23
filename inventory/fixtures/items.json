@@ -1,0 +1,202 @@
+[
+  {
+    "model": "inventory.item",
+    "pk": 1,
+    "fields": {
+      "name": "Shure SM58 Microphone",
+      "description": "Cardioid dynamic vocal microphone",
+      "category": 11,
+      "ministry_area": 1,
+      "quantity": 8,
+      "min_quantity": 2,
+      "unit_value": "99.00",
+      "acquisition_date": "2024-06-15",
+      "condition": "GOOD",
+      "location": "Sound Booth Cabinet",
+      "barcode": "SM58-001",
+      "notes": "Standard vocal microphone for worship team",
+      "created_at": "2025-01-05T10:00:00Z",
+      "updated_at": "2025-01-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 2,
+    "fields": {
+      "name": "Sennheiser EW 100 G4 Wireless System",
+      "description": "Wireless lavalier microphone system with bodypack",
+      "category": 12,
+      "ministry_area": 1,
+      "quantity": 4,
+      "min_quantity": 1,
+      "unit_value": "599.00",
+      "acquisition_date": "2024-03-20",
+      "condition": "EXCELLENT",
+      "location": "Sound Booth Locked Cabinet",
+      "barcode": "SENN-001",
+      "notes": "Used for pastor and main speakers",
+      "created_at": "2025-01-05T10:05:00Z",
+      "updated_at": "2025-01-05T10:05:00Z"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 3,
+    "fields": {
+      "name": "Yamaha P-125 Digital Piano",
+      "description": "88-key weighted digital piano",
+      "category": 15,
+      "ministry_area": 1,
+      "quantity": 2,
+      "min_quantity": 1,
+      "unit_value": "649.00",
+      "acquisition_date": "2023-11-10",
+      "condition": "GOOD",
+      "location": "Stage Left",
+      "barcode": "YAM-P125-001",
+      "notes": "Used for worship services and events",
+      "created_at": "2025-01-05T10:10:00Z",
+      "updated_at": "2025-01-05T10:10:00Z"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 4,
+    "fields": {
+      "name": "Epson PowerLite 2250U Projector",
+      "description": "WUXGA 3LCD projector, 5000 lumens",
+      "category": 13,
+      "ministry_area": 1,
+      "quantity": 1,
+      "min_quantity": 1,
+      "unit_value": "1299.00",
+      "acquisition_date": "2024-01-15",
+      "condition": "EXCELLENT",
+      "location": "Ceiling Mount, Sanctuary",
+      "barcode": "EPSON-2250-001",
+      "notes": "Main sanctuary projector",
+      "created_at": "2025-01-05T10:15:00Z",
+      "updated_at": "2025-01-05T10:15:00Z"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 5,
+    "fields": {
+      "name": "Folding Tables",
+      "description": "6' rectangular plastic folding tables",
+      "category": 4,
+      "ministry_area": 6,
+      "quantity": 15,
+      "min_quantity": 5,
+      "unit_value": "89.00",
+      "acquisition_date": "2023-09-01",
+      "condition": "GOOD",
+      "location": "Storage Room B",
+      "barcode": "TABLE-6FT-001",
+      "notes": "Used for events, classes, and fellowship",
+      "created_at": "2025-01-05T10:20:00Z",
+      "updated_at": "2025-01-05T10:20:00Z"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 6,
+    "fields": {
+      "name": "Folding Chairs",
+      "description": "Plastic folding chairs with metal frame",
+      "category": 4,
+      "ministry_area": 6,
+      "quantity": 100,
+      "min_quantity": 20,
+      "unit_value": "24.50",
+      "acquisition_date": "2023-09-01",
+      "condition": "GOOD",
+      "location": "Storage Room B",
+      "barcode": "CHAIR-FOLD-001",
+      "notes": "Used for events and overflow seating",
+      "created_at": "2025-01-05T10:25:00Z",
+      "updated_at": "2025-01-05T10:25:00Z"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 7,
+    "fields": {
+      "name": "Crayola Crayons",
+      "description": "24-pack crayons for children's ministry",
+      "category": 6,
+      "ministry_area": 2,
+      "quantity": 50,
+      "min_quantity": 10,
+      "unit_value": "2.99",
+      "acquisition_date": "2024-08-10",
+      "condition": "NEW",
+      "location": "Children's Supply Closet",
+      "barcode": "CRAY-24PK-001",
+      "notes": "Used for Sunday School and children's activities",
+      "created_at": "2025-01-05T10:30:00Z",
+      "updated_at": "2025-01-05T10:30:00Z"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 8,
+    "fields": {
+      "name": "Construction Paper",
+      "description": "Colored construction paper, assorted colors",
+      "category": 6,
+      "ministry_area": 2,
+      "quantity": 30,
+      "min_quantity": 5,
+      "unit_value": "7.99",
+      "acquisition_date": "2024-08-10",
+      "condition": "NEW",
+      "location": "Children's Supply Closet",
+      "barcode": "PAPER-CONST-001",
+      "notes": "Used for crafts and activities",
+      "created_at": "2025-01-05T10:35:00Z",
+      "updated_at": "2025-01-05T10:35:00Z"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 9,
+    "fields": {
+      "name": "Coffee Maker",
+      "description": "Commercial 60-cup coffee urn",
+      "category": 7,
+      "ministry_area": 6,
+      "quantity": 3,
+      "min_quantity": 2,
+      "unit_value": "85.00",
+      "acquisition_date": "2023-12-01",
+      "condition": "GOOD",
+      "location": "Kitchen",
+      "barcode": "COFFEE-URN-001",
+      "notes": "Used for Sunday fellowship and events",
+      "created_at": "2025-01-05T10:40:00Z",
+      "updated_at": "2025-01-05T10:40:00Z"
+    }
+  },
+  {
+    "model": "inventory.item",
+    "pk": 10,
+    "fields": {
+      "name": "Dell Inspiron Laptop",
+      "description": "Dell Inspiron 15, 16GB RAM, 512GB SSD",
+      "category": 10,
+      "ministry_area": 6,
+      "quantity": 5,
+      "min_quantity": 1,
+      "unit_value": "799.00",
+      "acquisition_date": "2024-05-15",
+      "condition": "EXCELLENT",
+      "location": "Office Storage",
+      "barcode": "DELL-INS15-001",
+      "notes": "Used for ministry presentations and office work",
+      "created_at": "2025-01-05T10:45:00Z",
+      "updated_at": "2025-01-05T10:45:00Z"
+    }
+  }
+]

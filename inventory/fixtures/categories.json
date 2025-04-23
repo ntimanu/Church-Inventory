@@ -1,0 +1,155 @@
+[
+  {
+    "model": "inventory.category",
+    "pk": 1,
+    "fields": {
+      "name": "Audio Equipment",
+      "description": "Sound systems, microphones, and audio processing gear",
+      "parent": null
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 2,
+    "fields": {
+      "name": "Visual Equipment",
+      "description": "Cameras, projectors, screens, and visual display systems",
+      "parent": null
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 3,
+    "fields": {
+      "name": "Musical Instruments",
+      "description": "All musical instruments used in worship and events",
+      "parent": null
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 4,
+    "fields": {
+      "name": "Furniture",
+      "description": "Chairs, tables, podiums, and general furniture",
+      "parent": null
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 5,
+    "fields": {
+      "name": "Educational Materials",
+      "description": "Books, curriculum, crafts, and teaching resources",
+      "parent": null
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 6,
+    "fields": {
+      "name": "Kitchen & Catering",
+      "description": "Utensils, appliances, and food service equipment",
+      "parent": null
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 7,
+    "fields": {
+      "name": "Maintenance & Tools",
+      "description": "Cleaning tools, repair equipment, and supplies",
+      "parent": null
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 8,
+    "fields": {
+      "name": "Decorations",
+      "description": "Seasonal, stage, and event decorations",
+      "parent": null
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 9,
+    "fields": {
+      "name": "Computers & IT",
+      "description": "Laptops, desktops, networking gear, and software",
+      "parent": null
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 10,
+    "fields": {
+      "name": "Wired Microphones",
+      "description": "Cabled microphones for instruments and vocals",
+      "parent": 1
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 11,
+    "fields": {
+      "name": "Wireless Microphones",
+      "description": "Handheld, lavalier, and headset wireless microphones",
+      "parent": 1
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 12,
+    "fields": {
+      "name": "Speakers",
+      "description": "PA systems, monitors, and loudspeakers",
+      "parent": 1
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 13,
+    "fields": {
+      "name": "Projectors",
+      "description": "Video projectors for presentations and worship",
+      "parent": 2
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 14,
+    "fields": {
+      "name": "Screens",
+      "description": "TVs, LED panels, and projection screens",
+      "parent": 2
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 15,
+    "fields": {
+      "name": "String Instruments",
+      "description": "Guitars, violins, basses, and other stringed instruments",
+      "parent": 3
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 16,
+    "fields": {
+      "name": "Percussion",
+      "description": "Drums, cymbals, tambourines, and percussive instruments",
+      "parent": 3
+    }
+  },
+  {
+    "model": "inventory.category",
+    "pk": 17,
+    "fields": {
+      "name": "Keyboards",
+      "description": "Keyboards, synthesizers, and pianos",
+      "parent": 3
+    }
+  }
+]

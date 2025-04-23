@@ -3,6 +3,7 @@ from django.utils.translation import gettext_lazy as _
 
 class MinistryArea(models.Model):
     name = models.CharField(_('name'), max_length=100)
+    slug = models.SlugField(unique=True, default="ministry-slug")
     description = models.TextField(_('description'), blank=True)
     location = models.CharField(_('location'), max_length=100, blank=True)
     leader = models.ForeignKey(
@@ -12,6 +13,8 @@ class MinistryArea(models.Model):
         blank=True,
         related_name='led_ministries'
     )
+    active = models.BooleanField(default=True)
+    notes = models.TextField(blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     
